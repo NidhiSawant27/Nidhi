@@ -1,5 +1,6 @@
 a=int(input("ENTER FIRST NUMBER"))
 b=int(input("ENTER SECOND NUMBER"))
+print("Type 'add' for addition , type 'subtract' for subtraction , type 'multiply' for multiplication , type 'divide' for division.")
 k=input("enter arthmetic operation to get answer")
 
 def addition():
