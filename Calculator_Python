@@ -1,0 +1,33 @@
+a=int(input("ENTER FIRST NUMBER"))
+b=int(input("ENTER SECOND NUMBER"))
+k=input("enter arthmetic operation to get answer")
+
+def addition():
+    c=a+b;
+    print("ADDITION OF TWO NUMBERS IS",c)
+
+def subtract():
+    s=a-b;
+    print("SUBSTRACTION OF TWO NUMBERS IS ",s)
+
+def multiply():
+    m=a*b;
+    print("MULTIPLICATION OF TWO NUMBERS IS ",m);
+
+def division():
+    d=a/b;
+    print("DIVISION OF TWO NUMBERS IS ",d)
+   
+def program():
+    if(k=="add"):
+       addition();
+    elif(k=="subtract"):
+        subtract();
+    elif(k=="multiply"):
+         multiply();
+    elif(k=="divide"):
+        division();
+    else:
+        print("SORRY,TRY AGAIN LATER!")
+
+program()
